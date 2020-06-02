@@ -16,7 +16,10 @@ tags: homework
 3. 算各個feature的相關性
 
 ## Target
-觀察圖形之後，可以發現Category 24有類似的圖形波動。假設人都會有習慣性，以及一些愛屋及烏的特性，例如喜歡A和B的就會比較喜歡C。以此為基準點，去計算與預測所有人對於beaches(Category 4)的喜好程度。算好之後，測試是否有scalability。
+
+觀察圖形之後，可以發現Category 24有類似的圖形波動
+假設人都會有習慣性，以及一些愛屋及烏的特性，例如喜歡A和B的就會比較喜歡C。以此為基準點，去計算與預測所有人對於beaches(Category 4)的喜好程度。算好之後，測試是否有scalability。
+希望可以得到人的喜好程度是有相慣性的，作法為以其中一個columns為預測目標，其他columns當feature去做分類預測，最後比較分類預測的結果以及抽出的columns
 
 測試Dicision Tree for Category 4
 ### improvement
