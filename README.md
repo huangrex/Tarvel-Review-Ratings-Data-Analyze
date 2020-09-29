@@ -1,6 +1,3 @@
----
-tags: homework
----
 # Tarvel Review Ratings Data Set
 >詳細在jupyter notebook
 >
